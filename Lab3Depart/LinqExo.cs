@@ -83,7 +83,7 @@ namespace Lab3Depart
 
         }
 
-        public void MoyennAgeTotalFruit (IEnumerable<Personne> personnes, IEnumerable<Fruit> fruits)
+        public void MoyennAgeTotalFruit (IEnumerable<Personne> personnes, IEnumerable<Fruit> fruits)  /*** MYSTERE ***/
         {
             
             var genres = from p in personnes
