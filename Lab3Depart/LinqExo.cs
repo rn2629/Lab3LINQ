@@ -98,7 +98,7 @@ namespace Lab3Depart
                 Console.WriteLine("Moyenne d'age des personnes de ce genre : " + g.Average);
                 Console.WriteLine("Nombres totals de fruits: " + g.Count);
             }
-
+            /*** Fonction qui affiche le genre (m,f) de personnes, le nombre de personnes par genre, la moyenne d'age de personne par genre(m,f)) et le nombre totals de fruits ***/
         }
 
     }

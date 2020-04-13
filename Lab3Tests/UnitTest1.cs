@@ -38,5 +38,18 @@ namespace Lab3Tests
             Assert.AreEqual(le.ContientA(new List<Fruit>(){ new Fruit() { Nom = "Cerise" }}).Count(), 0);
             Assert.AreEqual(le.ContientA(new List<Fruit>()).Count(), 0);
         }
+
+        [TestMethod]
+        public void TestPlus18()
+        {
+            Assert.AreEqual(le.EnfantsE(new List<Personne>() { new Personne() { Nom = "Rodrigue", Age = 24, Genre = 'M' } }).Count(), 0);
+            Assert.AreEqual(le.EnfantsS(new List<Personne>() { new Personne() { Nom = "Michelle", Age = 21, Genre = 'F' } }).Count(), 0);
+        }
+
+        [TestMethod]
+        public void TestPlusVielle()
+        {
+            Assert.AreNotEqual(le.LaPlusVielleE(new List<Personne>() { new Personne() { Nom = "Michelle", Age = 21, Genre = 'F' } }).Age, 12);
+        }
     }
 }

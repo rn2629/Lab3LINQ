@@ -65,12 +65,12 @@ namespace Lab3Depart
             Console.Read();
             Console.WriteLine("-------------------------");
 
-            Console.WriteLine("Fruits par Ordre decroissant de popularité des personnes  (par Extension): ");
-            var reponse5 = le.FruitsFavorisE(personnes);
-            Console.WriteLine($"{string.Join(separator: ", ", values: reponse5)}");
+        Console.WriteLine("Fruits par Ordre decroissant de popularité des personnes  (par Extension): ");
+        var reponse5 = le.FruitsFavorisE(personnes);
+        Console.WriteLine($"{string.Join(separator: ", ", values: reponse5)}");
 
-            Console.Read();
-            Console.WriteLine("-------------------------");
+        Console.Read();
+        Console.WriteLine("-------------------------");
 
 
             Console.WriteLine("Fruits par Ordre decroissant de popularité des personnes (par Syntaxe): ");
